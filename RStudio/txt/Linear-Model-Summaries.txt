@@ -1,0 +1,99 @@
+> summary(lmdom)
+
+Call:
+lm(formula = domdis$COSTS.T2 ~ domdis$COSTS.T1)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-152.85  -66.10    3.70   48.94  340.69 
+
+Coefficients:
+                Estimate Std. Error t value Pr(>|t|)   
+(Intercept)     324.4758   103.4638   3.136  0.00788 **
+domdis$COSTS.T1   0.1088     0.1628   0.668  0.51555   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 121.5 on 13 degrees of freedom
+Multiple R-squared:  0.03323,	Adjusted R-squared:  -0.04114 
+F-statistic: 0.4468 on 1 and 13 DF,  p-value: 0.5155
+
+> summary(lmhos)
+
+Call:
+lm(formula = hosdis$COSTS.T2 ~ hosdis$COSTS.T1)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-356.32 -157.87   39.95   93.46  569.67 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)   
+(Intercept)     627.32289  163.82292   3.829  0.00113 **
+hosdis$COSTS.T1  -0.02037    0.21388  -0.095  0.92511   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 241.6 on 19 degrees of freedom
+Multiple R-squared:  0.0004773,	Adjusted R-squared:  -0.05213 
+F-statistic: 0.009073 on 1 and 19 DF,  p-value: 0.9251
+
+> summary(lmrnh)
+
+Call:
+lm(formula = rnhdis$COSTS.T2 ~ rnhdis$COSTS.T1)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-347.50 -128.13  -27.94  109.76  359.92 
+
+Coefficients:
+                Estimate Std. Error t value Pr(>|t|)   
+(Intercept)     390.4512   119.4008   3.270   0.0035 **
+rnhdis$COSTS.T1   0.2674     0.1491   1.793   0.0867 . 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 209.9 on 22 degrees of freedom
+Multiple R-squared:  0.1275,	Adjusted R-squared:  0.08787 
+F-statistic: 3.216 on 1 and 22 DF,  p-value: 0.0867
+
+> summary(lmsgh)
+
+Call:
+lm(formula = sghdis$COSTS.T2 ~ sghdis$COSTS.T1)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-520.28 -117.25   22.53  153.95  488.12 
+
+Coefficients:
+                  Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     831.501942 136.834644   6.077 4.05e-07 ***
+sghdis$COSTS.T1  -0.007232   0.154079  -0.047    0.963    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 242.5 on 39 degrees of freedom
+Multiple R-squared:  5.649e-05,	Adjusted R-squared:  -0.02558 
+F-statistic: 0.002203 on 1 and 39 DF,  p-value: 0.9628
+
+> summary(lmdis)
+
+Call:
+lm(formula = learndis$COSTS.T2 ~ learndis$COSTS.T1)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-413.51 -230.12   -7.11  202.78  627.52 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       458.47856   78.73975   5.823 7.19e-08 ***
+learndis$COSTS.T1   0.26435    0.09733   2.716   0.0078 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 258.1 on 99 degrees of freedom
+Multiple R-squared:  0.06935,	Adjusted R-squared:  0.05995 
+F-statistic: 7.377 on 1 and 99 DF,  p-value: 0.007797

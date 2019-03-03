@@ -1,0 +1,121 @@
+> stem(domdis$COSTS.T1)
+
+  The decimal point is 2 digit(s) to the right of the |
+
+   2 | 47
+   4 | 8155689
+   6 | 13434
+   8 | 
+  10 | 
+  12 | 1
+
+> stem(domdis$COSTS.T2)
+
+  The decimal point is 2 digit(s) to the right of the |
+
+  2 | 16922479
+  4 | 022566
+  6 | 3
+
+> 
+> stem(hosdis$COSTS.T1)
+
+  The decimal point is 2 digit(s) to the right of the |
+
+   4 | 11246646
+   6 | 03
+   8 | 0570113444
+  10 | 
+  12 | 1
+
+> stem(hosdis$COSTS.T2)
+
+  The decimal point is 2 digit(s) to the right of the |
+
+   2 | 646
+   4 | 3456678
+   6 | 66011145
+   8 | 1
+  10 | 08
+
+> 
+> stem(rnhdis$COSTS.T1)
+
+  The decimal point is 3 digit(s) to the right of the |
+
+  0 | 334
+  0 | 555567778888889999
+  1 | 03
+  1 | 5
+
+> stem(rnhdis$COSTS.T2)
+
+  The decimal point is 2 digit(s) to the right of the |
+
+  2 | 28899
+  4 | 359167788
+  6 | 0335
+  8 | 456236
+
+> 
+> stem(sghdis$COSTS.T1)
+
+  The decimal point is 2 digit(s) to the right of the |
+
+   2 | 8
+   4 | 22456
+   6 | 1334823788
+   8 | 02236890123334588
+  10 | 36672
+  12 | 9
+  14 | 0
+  16 | 6
+
+> stem(sghdis$COSTS.T2)
+
+  The decimal point is 2 digit(s) to the right of the |
+
+   2 | 044
+   4 | 556
+   6 | 337011123579
+   8 | 2455993344448
+  10 | 055691348
+  12 | 1
+
+> 
+> stem(learndis$COSTS.T1)
+
+  The decimal point is 2 digit(s) to the right of the |
+
+   2 | 88
+   3 | 4789
+   4 | 11246689
+   5 | 01223344555666889
+   6 | 011333344678
+   7 | 12334788
+   8 | 0000222334456667889
+   9 | 001112333344444588
+  10 | 23667
+  11 | 2
+  12 | 19
+  13 | 12
+  14 | 0
+  15 | 4
+  16 | 6
+
+> stem(learndis$COSTS.T2)
+
+  The decimal point is 2 digit(s) to the right of the |
+
+   2 | 12668899
+   3 | 02244446799
+   4 | 022334555556666789
+   5 | 1667788
+   6 | 03333667
+   7 | 00111111233455579
+   8 | 1244555699
+   9 | 2333444468
+  10 | 05569
+  11 | 013488
+  12 | 
+  13 | 1
