@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.11.30)  9 FEB 2019 20:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.11.30)  3 MAR 2019 17:27
 entering extended mode
 **"./group project.tex"
 ("group project.tex"
@@ -677,28 +677,35 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box41
 \@float@everytoks=\toks37
 \@floatcapt=\box42
+)
+("C:\Users\alexw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.sty
+"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks38
+\verbatim@line=\toks39
+\verbatim@in@stream=\read2
 ) ("group project.aux")
 \openout1 = `"group project.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 21.
 
 ("C:\Users\alexw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    ... okay on input line 21.
 
 ABD: EveryShipout initializing macros
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -708,12 +715,12 @@ ABD: EveryShipout initializing macros
 \scratchbox=\box43
 \nofMPsegments=\count144
 \nofMParguments=\count145
-\everyMPshowfont=\toks38
+\everyMPshowfont=\toks40
 \MPscratchCnt=\count146
 \MPscratchDim=\dimen177
 \MPnumerator=\count147
 \makeMPintoPDFobject=\count148
-\everyMPtoPDFconversion=\toks39
+\everyMPtoPDFconversion=\toks41
 )
 ("C:\Users\alexw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
 base.sty"
@@ -777,44 +784,311 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 21.
+LaTeX Font Info:    Try loading font information for U+msa on input line 22.
 
 ("C:\Users\alexw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 21.
+LaTeX Font Info:    Try loading font information for U+msb on input line 22.
 ("C:\Users\alexw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-LaTeX Warning: Citation `WC:1953' on page 1 undefined on input line 26.
-
+File: RStudio/txt/Summaries.txt  (verbatim)
 [1
 
 {C:/Users/alexw/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-("group project.aux")
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: File `RStudio/jpeg/Box DOM.jpeg' not found on input line 28.
 
- ) 
+<RStudio/jpeg/Box DOM.jpeg, id=13, 652.68843pt x 420.06938pt>
+File: RStudio/jpeg/Box DOM.jpeg Graphic file (type jpg)
+<use RStudio/jpeg/Box DOM.jpeg>
+Package pdftex.def Info: RStudio/jpeg/Box DOM.jpeg  used on input line 28.
+(pdftex.def)             Requested size: 426.79134pt x 274.68916pt.
+
+LaTeX Warning: File `RStudio/jpeg/Box HOS.jpeg' not found on input line 29.
+
+<RStudio/jpeg/Box HOS.jpeg, id=14, 652.68843pt x 420.06938pt>
+File: RStudio/jpeg/Box HOS.jpeg Graphic file (type jpg)
+<use RStudio/jpeg/Box HOS.jpeg>
+Package pdftex.def Info: RStudio/jpeg/Box HOS.jpeg  used on input line 29.
+(pdftex.def)             Requested size: 426.79134pt x 274.68916pt.
+
+LaTeX Warning: File `RStudio/jpeg/Box RNH.jpeg' not found on input line 30.
+
+<RStudio/jpeg/Box RNH.jpeg, id=15, 652.68843pt x 420.06938pt>
+File: RStudio/jpeg/Box RNH.jpeg Graphic file (type jpg)
+<use RStudio/jpeg/Box RNH.jpeg>
+Package pdftex.def Info: RStudio/jpeg/Box RNH.jpeg  used on input line 30.
+(pdftex.def)             Requested size: 426.79134pt x 274.68916pt.
+
+LaTeX Warning: File `RStudio/jpeg/Box SGH.jpeg' not found on input line 31.
+
+<RStudio/jpeg/Box SGH.jpeg, id=16, 652.68843pt x 420.06938pt>
+File: RStudio/jpeg/Box SGH.jpeg Graphic file (type jpg)
+<use RStudio/jpeg/Box SGH.jpeg>
+Package pdftex.def Info: RStudio/jpeg/Box SGH.jpeg  used on input line 31.
+(pdftex.def)             Requested size: 426.79134pt x 274.68916pt.
+
+LaTeX Warning: File `RStudio/jpeg/Box COST.jpeg' not found on input line 32.
+
+<RStudio/jpeg/Box COST.jpeg, id=17, 652.68843pt x 420.06938pt>
+File: RStudio/jpeg/Box COST.jpeg Graphic file (type jpg)
+<use RStudio/jpeg/Box COST.jpeg>
+Package pdftex.def Info: RStudio/jpeg/Box COST.jpeg  used on input line 32.
+(pdftex.def)             Requested size: 426.79134pt x 274.68916pt.
+
+Overfull \hbox (9.50516pt too wide) in paragraph at lines 28--33
+\OT1/cmr/m/n/10.95 DOM.jpeg []
+ []
+
+
+Overfull \hbox (5.3989pt too wide) in paragraph at lines 28--33
+\OT1/cmr/m/n/10.95 HOS.jpeg []
+ []
+
+
+Overfull \hbox (7.0718pt too wide) in paragraph at lines 28--33
+\OT1/cmr/m/n/10.95 RNH.jpeg []
+ []
+
+
+Overfull \hbox (5.47493pt too wide) in paragraph at lines 28--33
+\OT1/cmr/m/n/10.95 SGH.jpeg []
+ []
+
+
+Overfull \hbox (13.00307pt too wide) in paragraph at lines 28--33
+\OT1/cmr/m/n/10.95 COST.jpeg [] 
+ []
+
+[2] [3 <./RStudio/jpeg/Box DOM.jpeg> <./RStudio/jpeg/Box HOS.jpeg>] [4 <./RStud
+io/jpeg/Box RNH.jpeg> <./RStudio/jpeg/Box SGH.jpeg>]
+File: RStudio/txt/Stem-Leaf.txt  (verbatim)
+ [5 <./RStudio/jpeg/Box COST.jpeg>] [6] [7]
+
+LaTeX Warning: File `RStudio/jpeg/Norm DOM T1.jpeg' not found on input line 37.
+
+
+<RStudio/jpeg/Norm DOM T1.jpeg, id=37, 652.68843pt x 420.06938pt>
+File: RStudio/jpeg/Norm DOM T1.jpeg Graphic file (type jpg)
+<use RStudio/jpeg/Norm DOM T1.jpeg>
+Package pdftex.def Info: RStudio/jpeg/Norm DOM T1.jpeg  used on input line 37.
+(pdftex.def)             Requested size: 426.79134pt x 274.68916pt.
+
+LaTeX Warning: File `RStudio/jpeg/Norm DOM T2.jpeg' not found on input line 38.
+
+
+<RStudio/jpeg/Norm DOM T2.jpeg, id=38, 652.68843pt x 420.06938pt>
+File: RStudio/jpeg/Norm DOM T2.jpeg Graphic file (type jpg)
+<use RStudio/jpeg/Norm DOM T2.jpeg>
+Package pdftex.def Info: RStudio/jpeg/Norm DOM T2.jpeg  used on input line 38.
+(pdftex.def)             Requested size: 426.79134pt x 274.68916pt.
+
+Overfull \hbox (25.32063pt too wide) in paragraph at lines 37--39
+\OT1/cmr/m/n/10.95 DOM T1.jpeg []
+ []
+
+
+Overfull \hbox (25.32063pt too wide) in paragraph at lines 37--39
+\OT1/cmr/m/n/10.95 DOM T2.jpeg [] 
+ []
+
+[8]
+
+LaTeX Warning: File `RStudio/jpeg/Norm HOS T1.jpeg' not found on input line 40.
+
+
+<RStudio/jpeg/Norm HOS T1.jpeg, id=42, 652.68843pt x 420.06938pt>
+File: RStudio/jpeg/Norm HOS T1.jpeg Graphic file (type jpg)
+<use RStudio/jpeg/Norm HOS T1.jpeg>
+Package pdftex.def Info: RStudio/jpeg/Norm HOS T1.jpeg  used on input line 40.
+(pdftex.def)             Requested size: 426.79134pt x 274.68916pt.
+
+LaTeX Warning: File `RStudio/jpeg/Norm HOS T2.jpeg' not found on input line 41.
+
+
+<RStudio/jpeg/Norm HOS T2.jpeg, id=43, 652.68843pt x 420.06938pt>
+File: RStudio/jpeg/Norm HOS T2.jpeg Graphic file (type jpg)
+<use RStudio/jpeg/Norm HOS T2.jpeg>
+Package pdftex.def Info: RStudio/jpeg/Norm HOS T2.jpeg  used on input line 41.
+(pdftex.def)             Requested size: 426.79134pt x 274.68916pt.
+
+Overfull \hbox (38.21437pt too wide) in paragraph at lines 40--42
+[]\OT1/cmr/m/n/10.95 HOS T1.jpeg []
+ []
+
+
+Overfull \hbox (21.21437pt too wide) in paragraph at lines 40--42
+\OT1/cmr/m/n/10.95 HOS T2.jpeg [] 
+ []
+
+[9 <./RStudio/jpeg/Norm DOM T1.jpeg> <./RStudio/jpeg/Norm DOM T2.jpeg>]
+
+LaTeX Warning: File `RStudio/jpeg/Norm RNH T1.jpeg' not found on input line 43.
+
+
+<RStudio/jpeg/Norm RNH T1.jpeg, id=47, 652.68843pt x 420.06938pt>
+File: RStudio/jpeg/Norm RNH T1.jpeg Graphic file (type jpg)
+<use RStudio/jpeg/Norm RNH T1.jpeg>
+Package pdftex.def Info: RStudio/jpeg/Norm RNH T1.jpeg  used on input line 43.
+(pdftex.def)             Requested size: 426.79134pt x 274.68916pt.
+
+LaTeX Warning: File `RStudio/jpeg/Norm RNH T2.jpeg' not found on input line 44.
+
+
+<RStudio/jpeg/Norm RNH T2.jpeg, id=48, 652.68843pt x 420.06938pt>
+File: RStudio/jpeg/Norm RNH T2.jpeg Graphic file (type jpg)
+<use RStudio/jpeg/Norm RNH T2.jpeg>
+Package pdftex.def Info: RStudio/jpeg/Norm RNH T2.jpeg  used on input line 44.
+(pdftex.def)             Requested size: 426.79134pt x 274.68916pt.
+
+Overfull \hbox (39.88727pt too wide) in paragraph at lines 43--45
+[]\OT1/cmr/m/n/10.95 RNH T1.jpeg []
+ []
+
+
+Overfull \hbox (22.88727pt too wide) in paragraph at lines 43--45
+\OT1/cmr/m/n/10.95 RNH T2.jpeg [] 
+ []
+
+[10 <./RStudio/jpeg/Norm HOS T1.jpeg> <./RStudio/jpeg/Norm HOS T2.jpeg>]
+
+LaTeX Warning: File `RStudio/jpeg/Norm SGH T1.jpeg' not found on input line 46.
+
+
+<RStudio/jpeg/Norm SGH T1.jpeg, id=52, 652.68843pt x 420.06938pt>
+File: RStudio/jpeg/Norm SGH T1.jpeg Graphic file (type jpg)
+<use RStudio/jpeg/Norm SGH T1.jpeg>
+Package pdftex.def Info: RStudio/jpeg/Norm SGH T1.jpeg  used on input line 46.
+(pdftex.def)             Requested size: 426.79134pt x 274.68916pt.
+
+LaTeX Warning: File `RStudio/jpeg/Norm SGH T2.jpeg' not found on input line 47.
+
+
+<RStudio/jpeg/Norm SGH T2.jpeg, id=53, 652.68843pt x 420.06938pt>
+File: RStudio/jpeg/Norm SGH T2.jpeg Graphic file (type jpg)
+<use RStudio/jpeg/Norm SGH T2.jpeg>
+Package pdftex.def Info: RStudio/jpeg/Norm SGH T2.jpeg  used on input line 47.
+(pdftex.def)             Requested size: 426.79134pt x 274.68916pt.
+
+Overfull \hbox (38.2904pt too wide) in paragraph at lines 46--48
+[]\OT1/cmr/m/n/10.95 SGH T1.jpeg []
+ []
+
+
+Overfull \hbox (21.2904pt too wide) in paragraph at lines 46--48
+\OT1/cmr/m/n/10.95 SGH T2.jpeg [] 
+ []
+
+[11 <./RStudio/jpeg/Norm RNH T1.jpeg> <./RStudio/jpeg/Norm RNH T2.jpeg>]
+
+LaTeX Warning: File `RStudio/jpeg/Norm T1.jpeg' not found on input line 49.
+
+<RStudio/jpeg/Norm T1.jpeg, id=57, 652.68843pt x 420.06938pt>
+File: RStudio/jpeg/Norm T1.jpeg Graphic file (type jpg)
+<use RStudio/jpeg/Norm T1.jpeg>
+Package pdftex.def Info: RStudio/jpeg/Norm T1.jpeg  used on input line 49.
+(pdftex.def)             Requested size: 426.79134pt x 274.68916pt.
+
+LaTeX Warning: File `RStudio/jpeg/Norm T1.jpeg' not found on input line 50.
+
+File: RStudio/jpeg/Norm T1.jpeg Graphic file (type jpg)
+<use RStudio/jpeg/Norm T1.jpeg>
+Package pdftex.def Info: RStudio/jpeg/Norm T1.jpeg  used on input line 50.
+(pdftex.def)             Requested size: 426.79134pt x 274.68916pt.
+
+Overfull \hbox (12.9697pt too wide) in paragraph at lines 49--51
+[]\OT1/cmr/m/n/10.95 T1.jpeg []
+ []
+
+[12 <./RStudio/jpeg/Norm SGH T1.jpeg> <./RStudio/jpeg/Norm SGH T2.jpeg>]
+
+LaTeX Warning: File `RStudio/jpeg/Reg DOM.jpeg' not found on input line 55.
+
+<RStudio/jpeg/Reg DOM.jpeg, id=61, 652.68843pt x 420.06938pt>
+File: RStudio/jpeg/Reg DOM.jpeg Graphic file (type jpg)
+<use RStudio/jpeg/Reg DOM.jpeg>
+Package pdftex.def Info: RStudio/jpeg/Reg DOM.jpeg  used on input line 55.
+(pdftex.def)             Requested size: 426.79134pt x 274.68916pt.
+
+LaTeX Warning: File `RStudio/jpeg/Reg HOS.jpeg' not found on input line 56.
+
+<RStudio/jpeg/Reg HOS.jpeg, id=62, 652.68843pt x 420.06938pt>
+File: RStudio/jpeg/Reg HOS.jpeg Graphic file (type jpg)
+<use RStudio/jpeg/Reg HOS.jpeg>
+Package pdftex.def Info: RStudio/jpeg/Reg HOS.jpeg  used on input line 56.
+(pdftex.def)             Requested size: 426.79134pt x 274.68916pt.
+
+LaTeX Warning: File `RStudio/jpeg/Reg RNH.jpeg' not found on input line 57.
+
+<RStudio/jpeg/Reg RNH.jpeg, id=63, 652.68843pt x 420.06938pt>
+File: RStudio/jpeg/Reg RNH.jpeg Graphic file (type jpg)
+<use RStudio/jpeg/Reg RNH.jpeg>
+Package pdftex.def Info: RStudio/jpeg/Reg RNH.jpeg  used on input line 57.
+(pdftex.def)             Requested size: 426.79134pt x 274.68916pt.
+
+LaTeX Warning: File `RStudio/jpeg/Reg SGH.jpeg' not found on input line 58.
+
+<RStudio/jpeg/Reg SGH.jpeg, id=64, 652.68843pt x 420.06938pt>
+File: RStudio/jpeg/Reg SGH.jpeg Graphic file (type jpg)
+<use RStudio/jpeg/Reg SGH.jpeg>
+Package pdftex.def Info: RStudio/jpeg/Reg SGH.jpeg  used on input line 58.
+(pdftex.def)             Requested size: 426.79134pt x 274.68916pt.
+
+LaTeX Warning: File `RStudio/jpeg/Reg COST.jpeg' not found on input line 59.
+
+<RStudio/jpeg/Reg COST.jpeg, id=65, 652.68843pt x 420.06938pt>
+File: RStudio/jpeg/Reg COST.jpeg Graphic file (type jpg)
+<use RStudio/jpeg/Reg COST.jpeg>
+Package pdftex.def Info: RStudio/jpeg/Reg COST.jpeg  used on input line 59.
+(pdftex.def)             Requested size: 426.79134pt x 274.68916pt.
+
+Overfull \hbox (9.50516pt too wide) in paragraph at lines 55--60
+\OT1/cmr/m/n/10.95 DOM.jpeg []
+ []
+
+
+Overfull \hbox (5.3989pt too wide) in paragraph at lines 55--60
+\OT1/cmr/m/n/10.95 HOS.jpeg []
+ []
+
+
+Overfull \hbox (7.0718pt too wide) in paragraph at lines 55--60
+\OT1/cmr/m/n/10.95 RNH.jpeg []
+ []
+
+
+Overfull \hbox (5.47493pt too wide) in paragraph at lines 55--60
+\OT1/cmr/m/n/10.95 SGH.jpeg []
+ []
+
+
+Overfull \hbox (13.00307pt too wide) in paragraph at lines 55--60
+\OT1/cmr/m/n/10.95 COST.jpeg [] 
+ []
+
+[13 <./RStudio/jpeg/Norm T1.jpeg>] [14 <./RStudio/jpeg/Reg DOM.jpeg> <./RStudio
+/jpeg/Reg HOS.jpeg>] [15 <./RStudio/jpeg/Reg RNH.jpeg> <./RStudio/jpeg/Reg SGH.
+jpeg>] [16 <./RStudio/jpeg/Reg COST.jpeg>] ("group project.aux") ) 
 Here is how much of TeX's memory you used:
- 15702 strings out of 492969
- 305172 string characters out of 3126585
- 352700 words of memory out of 3000000
- 19272 multiletter control sequences out of 15000+200000
- 11698 words of font info for 44 fonts, out of 3000000 for 9000
+ 15801 strings out of 492969
+ 308087 string characters out of 3126585
+ 356337 words of memory out of 3000000
+ 19363 multiletter control sequences out of 15000+200000
+ 9964 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,9n,96p,425b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/alexw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb><C:/Users/alexw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb><C:/Users/alexw/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alexw/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/alexw/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/alexw
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "group project.pdf" (1 page, 69396 bytes).
+ 61i,6n,96p,425b,268s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/ale
+xw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/Users/alexw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr10.pfb><C:/Users/alexw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><C:/Users/alexw/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/alexw/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "group project.pdf" (16 pages, 1456716 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
+ 96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 108 words of extra memory for PDF output out of 10000 (max. 10000000)
 
