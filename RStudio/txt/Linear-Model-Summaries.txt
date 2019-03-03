@@ -12,7 +12,7 @@ Coefficients:
 (Intercept)     324.4758   103.4638   3.136  0.00788 **
 domdis$COSTS.T1   0.1088     0.1628   0.668  0.51555   
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 Residual standard error: 121.5 on 13 degrees of freedom
 Multiple R-squared:  0.03323,	Adjusted R-squared:  -0.04114 
@@ -32,7 +32,7 @@ Coefficients:
 (Intercept)     627.32289  163.82292   3.829  0.00113 **
 hosdis$COSTS.T1  -0.02037    0.21388  -0.095  0.92511   
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 Residual standard error: 241.6 on 19 degrees of freedom
 Multiple R-squared:  0.0004773,	Adjusted R-squared:  -0.05213 
@@ -52,7 +52,7 @@ Coefficients:
 (Intercept)     390.4512   119.4008   3.270   0.0035 **
 rnhdis$COSTS.T1   0.2674     0.1491   1.793   0.0867 . 
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 Residual standard error: 209.9 on 22 degrees of freedom
 Multiple R-squared:  0.1275,	Adjusted R-squared:  0.08787 
@@ -72,7 +72,7 @@ Coefficients:
 (Intercept)     831.501942 136.834644   6.077 4.05e-07 ***
 sghdis$COSTS.T1  -0.007232   0.154079  -0.047    0.963    
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 Residual standard error: 242.5 on 39 degrees of freedom
 Multiple R-squared:  5.649e-05,	Adjusted R-squared:  -0.02558 
@@ -92,7 +92,7 @@ Coefficients:
 (Intercept)       458.47856   78.73975   5.823 7.19e-08 ***
 learndis$COSTS.T1   0.26435    0.09733   2.716   0.0078 ** 
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 Residual standard error: 258.1 on 99 degrees of freedom
 Multiple R-squared:  0.06935,	Adjusted R-squared:  0.05995 

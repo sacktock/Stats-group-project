@@ -1,11 +1,11 @@
 
-\documentclass[11pt]{article}
+\documentclass[]{article}
 \usepackage{fullpage}
 \usepackage{tikz}
 \usepackage{tikz,fullpage}
 \usetikzlibrary{arrows,%
-	petri,%
-	topaths}%
+petri,%
+topaths}%
 \usepackage{tkz-berge}
 \usepackage[position=top]{subfig}
 \usepackage{amsmath}
@@ -16,55 +16,196 @@
 \usepackage{tabularx}
 \usepackage{float}
 \usepackage{verbatim}
+\usepackage{listings}
+\usepackage{xcolor}
+\definecolor{DarkGreen}{RGB}{10,132,20}
+
+\lstset{language=R,
+basicstyle=\small\ttfamily,
+stringstyle=\color{DarkGreen},
+morekeywords={TRUE,FALSE},
+deletekeywords={data,frame,length,as,character,subset,<-,c,resid,lm},
+keywordstyle=\color{gray},
+commentstyle=\color{DarkGreen},
+}
+
 \title{Template}
 \author{Name}
 \begin{document}
 \maketitle
 \section{Preliminaries}
+\begin{lstlisting}
+library(durham)
+data(learndis)
+
+domdis <- subset(learndis, ACCOM=="DOM", select = c("PATIENT","COSTS.T1","COSTS.T2"))
+hosdis <- subset(learndis, ACCOM=="HOS", select = c("PATIENT","COSTS.T1","COSTS.T2"))
+rnhdis <- subset(learndis, ACCOM=="RNH", select = c("PATIENT","COSTS.T1","COSTS.T2"))
+sghdis <- subset(learndis, ACCOM=="SGH", select = c("PATIENT","COSTS.T1","COSTS.T2"))
+\end{lstlisting}
 \section{Numerical Summaries}
 \subsection{Summaries}
 \verbatiminput{RStudio/txt/Summaries.txt}
 \subsection{Boxplots}
-\includegraphics[width=15cm]{RStudio/jpeg/Box DOM.jpeg}
-\includegraphics[width=15cm]{RStudio/jpeg/Box HOS.jpeg}
-\includegraphics[width=15cm]{RStudio/jpeg/Box RNH.jpeg}
-\includegraphics[width=15cm]{RStudio/jpeg/Box SGH.jpeg}
-\includegraphics[width=15cm]{RStudio/jpeg/Box COST.jpeg}
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Box_DOM.jpeg}
+\raggedright
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Box_HOS.jpeg}
+\raggedright
+
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Box_RNH.jpeg}
+\raggedright
+
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Box_SGH.jpeg}
+\raggedright
+
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Box_COST.jpeg}
+\raggedright
+
 \section{Assesment of Normality}
 \subsection{Stem and Leaf plots}
+
 \verbatiminput{RStudio/txt/Stem-Leaf.txt}
+
 \subsection{Normal Fit}
-\includegraphics[width=15cm]{RStudio/jpeg/Norm DOM T1.jpeg}
-\includegraphics[width=15cm]{RStudio/jpeg/Norm DOM T2.jpeg}
 
-\includegraphics[width=15cm]{RStudio/jpeg/Norm HOS T1.jpeg}
-\includegraphics[width=15cm]{RStudio/jpeg/Norm HOS T2.jpeg}
 
-\includegraphics[width=15cm]{RStudio/jpeg/Norm RNH T1.jpeg}
-\includegraphics[width=15cm]{RStudio/jpeg/Norm RNH T2.jpeg}
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Norm_DOM_T1.jpeg}
+\raggedright
 
-\includegraphics[width=15cm]{RStudio/jpeg/Norm SGH T1.jpeg}
-\includegraphics[width=15cm]{RStudio/jpeg/Norm SGH T2.jpeg}
 
-\includegraphics[width=15cm]{RStudio/jpeg/Norm T1.jpeg}
-\includegraphics[width=15cm]{RStudio/jpeg/Norm T1.jpeg}
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Norm_DOM_T2.jpeg}
+\raggedright
+
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Norm_HOS_T1.jpeg}
+\raggedright
+
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Norm_HOS_T2.jpeg}
+\raggedright
+
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Norm_RNH_T1.jpeg}
+\raggedright
+
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Norm_RNH_T2.jpeg}
+\raggedright
+
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Norm_SGH_T1.jpeg}
+\raggedright
+
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Norm_SGH_T2.jpeg}
+\raggedright
+
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Norm_T1.jpeg}
+\raggedright
+
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Norm_T1.jpeg}
+\raggedright
 
 
 \section{Associations}
 \subsection{Linear Models}
-\includegraphics[width=15cm]{RStudio/jpeg/Reg DOM.jpeg}
-\includegraphics[width=15cm]{RStudio/jpeg/Reg HOS.jpeg}
-\includegraphics[width=15cm]{RStudio/jpeg/Reg RNH.jpeg}
-\includegraphics[width=15cm]{RStudio/jpeg/Reg SGH.jpeg}
-\includegraphics[width=15cm]{RStudio/jpeg/Reg COST.jpeg}
 
-%\verbatiminput{RStudio/txt/Linear-Model-Summaries.txt}
-%This throws and error because there is an invalid UTF-8 character
+\begin{lstlisting}
+lmdom <- lm(domdis$COSTS.T2~domdis$COSTS.T1)
+lmhos <- lm(hosdis$COSTS.T2~hosdis$COSTS.T1)
+lmrnh <- lm(rnhdis$COSTS.T2~rnhdis$COSTS.T1)
+lmsgh <- lm(sghdis$COSTS.T2~sghdis$COSTS.T1)
+lmdis <- lm(learndis$COSTS.T2~learndis$COSTS.T1)
+\end{lstlisting}
+
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Reg_DOM.jpeg}
+\raggedright
+
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Reg_HOS.jpeg}
+\raggedright
+
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Reg_RNH.jpeg}
+\raggedright
+
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Reg_SGH.jpeg}
+\raggedright
+
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Reg_COST.jpeg}
+\raggedright
+
+\verbatiminput{RStudio/txt/Linear-Model-Summaries.txt}
+
 \section{Stability of Associations}
-
 \subsection{Residuals}
+
+\begin{lstlisting}
+residdom <- resid(lmdom)
+residhos <- resid(lmhos)
+residrnh <- resid(lmrnh)
+residsgh <- resid(lmsgh)
+residdis <- resid(lmdis)
+\end{lstlisting}
+
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Res_DOM.jpeg}
+\raggedright
+
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Res_HOS.jpeg}
+\raggedright
+
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Res_RNH.jpeg}
+\raggedright
+
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Res_SGH.jpeg}
+\raggedright
+
+
+\centering
+\includegraphics[width=\textwidth]{RStudio/jpeg/Res_COST.jpeg}
+\raggedright
 
 \section{Interpretations}
 
 \end{document}
+
+
 
