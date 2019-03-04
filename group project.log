@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.11.30)  4 MAR 2019 20:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.11.30)  4 MAR 2019 23:30
 entering extended mode
 **"./group project.tex"
 ("group project.tex"
@@ -864,100 +864,95 @@ File: RStudio/txt/Summaries.txt  (verbatim)
 <RStudio/jpeg/Box_DOM.jpeg, id=14, 652.68843pt x 420.06938pt>
 File: RStudio/jpeg/Box_DOM.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Box_DOM.jpeg>
-Package pdftex.def Info: RStudio/jpeg/Box_DOM.jpeg  used on input line 57.
-(pdftex.def)             Requested size: 469.75502pt x 302.34717pt.
+Package pdftex.def Info: RStudio/jpeg/Box_DOM.jpeg  used on input line 58.
+(pdftex.def)             Requested size: 284.52756pt x 183.12611pt.
 <RStudio/jpeg/Box_HOS.jpeg, id=15, 652.68843pt x 420.06938pt>
 File: RStudio/jpeg/Box_HOS.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Box_HOS.jpeg>
-Package pdftex.def Info: RStudio/jpeg/Box_HOS.jpeg  used on input line 61.
-(pdftex.def)             Requested size: 469.75502pt x 302.34717pt.
- [2]
-[3 <./RStudio/jpeg/Box_DOM.jpeg>]
-<RStudio/jpeg/Box_RNH.jpeg, id=22, 652.68843pt x 420.06938pt>
+Package pdftex.def Info: RStudio/jpeg/Box_HOS.jpeg  used on input line 63.
+(pdftex.def)             Requested size: 284.52756pt x 183.12611pt.
+ [2 <./RStudio/jpeg/Box_DOM.jpeg>]
+<RStudio/jpeg/Box_RNH.jpeg, id=19, 652.68843pt x 420.06938pt>
 File: RStudio/jpeg/Box_RNH.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Box_RNH.jpeg>
-Package pdftex.def Info: RStudio/jpeg/Box_RNH.jpeg  used on input line 66.
-(pdftex.def)             Requested size: 469.75502pt x 302.34717pt.
- [4 <./RStudio/jpeg/Box_HOS.jpeg>]
-<RStudio/jpeg/Box_SGH.jpeg, id=26, 652.68843pt x 420.06938pt>
+Package pdftex.def Info: RStudio/jpeg/Box_RNH.jpeg  used on input line 68.
+(pdftex.def)             Requested size: 284.52756pt x 183.12611pt.
+<RStudio/jpeg/Box_SGH.jpeg, id=20, 652.68843pt x 420.06938pt>
 File: RStudio/jpeg/Box_SGH.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Box_SGH.jpeg>
-Package pdftex.def Info: RStudio/jpeg/Box_SGH.jpeg  used on input line 71.
-(pdftex.def)             Requested size: 469.75502pt x 302.34717pt.
- [5 <./RStudio/jpeg/Box_RNH.jpeg>]
-<RStudio/jpeg/Box_COST.jpeg, id=30, 652.68843pt x 420.06938pt>
+Package pdftex.def Info: RStudio/jpeg/Box_SGH.jpeg  used on input line 73.
+(pdftex.def)             Requested size: 284.52756pt x 183.12611pt.
+ [3 <./RStudio/jpeg/Box_HOS.jpeg> <./RStudio/jpeg/Box_RNH.jpeg>]
+<RStudio/jpeg/Box_COST.jpeg, id=24, 652.68843pt x 420.06938pt>
 File: RStudio/jpeg/Box_COST.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Box_COST.jpeg>
-Package pdftex.def Info: RStudio/jpeg/Box_COST.jpeg  used on input line 76.
-(pdftex.def)             Requested size: 469.75502pt x 302.34717pt.
- [6 <./RStudio/jpeg/Box_SGH.jpeg>]
+Package pdftex.def Info: RStudio/jpeg/Box_COST.jpeg  used on input line 78.
+(pdftex.def)             Requested size: 284.52756pt x 183.12611pt.
 File: RStudio/txt/Stem-Leaf.txt  (verbatim)
- [7 <./RStudio/jpeg/Box_COST.jpeg>] [8] [9]
-<RStudio/jpeg/Norm_DOM_T1.jpeg, id=44, 652.68843pt x 420.06938pt>
+ [4 <./RStudio/jpeg/Box_SGH.jpeg> <./RStudio/jpeg/Box_COST.jpeg>]
+[5] [6]
+<RStudio/jpeg/Norm_DOM_T1.jpeg, id=34, 652.68843pt x 420.06938pt>
 File: RStudio/jpeg/Norm_DOM_T1.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Norm_DOM_T1.jpeg>
-Package pdftex.def Info: RStudio/jpeg/Norm_DOM_T1.jpeg  used on input line 89.
-(pdftex.def)             Requested size: 469.75502pt x 302.34717pt.
-<RStudio/jpeg/Norm_DOM_T2.jpeg, id=45, 652.68843pt x 420.06938pt>
+Package pdftex.def Info: RStudio/jpeg/Norm_DOM_T1.jpeg  used on input line 91.
+(pdftex.def)             Requested size: 284.52756pt x 183.12611pt.
+<RStudio/jpeg/Norm_DOM_T2.jpeg, id=35, 652.68843pt x 420.06938pt>
 File: RStudio/jpeg/Norm_DOM_T2.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Norm_DOM_T2.jpeg>
-Package pdftex.def Info: RStudio/jpeg/Norm_DOM_T2.jpeg  used on input line 94.
-(pdftex.def)             Requested size: 469.75502pt x 302.34717pt.
- [10 <./RStudio/jpeg/Norm_DOM_T1.jpeg>]
-<RStudio/jpeg/Norm_HOS_T1.jpeg, id=49, 652.68843pt x 420.06938pt>
+Package pdftex.def Info: RStudio/jpeg/Norm_DOM_T2.jpeg  used on input line 96.
+(pdftex.def)             Requested size: 284.52756pt x 183.12611pt.
+ [7 <./RStudio/jpeg/Norm_DOM_T1.jpeg>]
+<RStudio/jpeg/Norm_HOS_T1.jpeg, id=40, 652.68843pt x 420.06938pt>
 File: RStudio/jpeg/Norm_HOS_T1.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Norm_HOS_T1.jpeg>
-Package pdftex.def Info: RStudio/jpeg/Norm_HOS_T1.jpeg  used on input line 99.
-(pdftex.def)             Requested size: 469.75502pt x 302.34717pt.
- [11 <./RStudio/jpeg/Norm_DOM_T2.jpeg>]
-<RStudio/jpeg/Norm_HOS_T2.jpeg, id=53, 652.68843pt x 420.06938pt>
+Package pdftex.def Info: RStudio/jpeg/Norm_HOS_T1.jpeg  used on input line 101.
+
+(pdftex.def)             Requested size: 284.52756pt x 183.12611pt.
+<RStudio/jpeg/Norm_HOS_T2.jpeg, id=41, 652.68843pt x 420.06938pt>
 File: RStudio/jpeg/Norm_HOS_T2.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Norm_HOS_T2.jpeg>
-Package pdftex.def Info: RStudio/jpeg/Norm_HOS_T2.jpeg  used on input line 104.
+Package pdftex.def Info: RStudio/jpeg/Norm_HOS_T2.jpeg  used on input line 106.
 
-(pdftex.def)             Requested size: 469.75502pt x 302.34717pt.
- [12 <./RStudio/jpeg/Norm_HOS_T1.jpeg>]
-<RStudio/jpeg/Norm_RNH_T1.jpeg, id=57, 652.68843pt x 420.06938pt>
+(pdftex.def)             Requested size: 284.52756pt x 183.12611pt.
+ [8 <./RStudio/jpeg/Norm_DOM_T2.jpeg> <./RStudio/jpeg/Norm_HOS_T1.jpeg>]
+<RStudio/jpeg/Norm_RNH_T1.jpeg, id=45, 652.68843pt x 420.06938pt>
 File: RStudio/jpeg/Norm_RNH_T1.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Norm_RNH_T1.jpeg>
-Package pdftex.def Info: RStudio/jpeg/Norm_RNH_T1.jpeg  used on input line 109.
+Package pdftex.def Info: RStudio/jpeg/Norm_RNH_T1.jpeg  used on input line 111.
 
-(pdftex.def)             Requested size: 469.75502pt x 302.34717pt.
- [13 <./RStudio/jpeg/Norm_HOS_T2.jpeg>]
-<RStudio/jpeg/Norm_RNH_T2.jpeg, id=62, 652.68843pt x 420.06938pt>
+(pdftex.def)             Requested size: 284.52756pt x 183.12611pt.
+<RStudio/jpeg/Norm_RNH_T2.jpeg, id=46, 652.68843pt x 420.06938pt>
 File: RStudio/jpeg/Norm_RNH_T2.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Norm_RNH_T2.jpeg>
-Package pdftex.def Info: RStudio/jpeg/Norm_RNH_T2.jpeg  used on input line 114.
+Package pdftex.def Info: RStudio/jpeg/Norm_RNH_T2.jpeg  used on input line 116.
 
-(pdftex.def)             Requested size: 469.75502pt x 302.34717pt.
- [14 <./RStudio/jpeg/Norm_RNH_T1.jpeg>]
-<RStudio/jpeg/Norm_SGH_T1.jpeg, id=66, 652.68843pt x 420.06938pt>
+(pdftex.def)             Requested size: 284.52756pt x 183.12611pt.
+ [9 <./RStudio/jpeg/Norm_HOS_T2.jpeg> <./RStudio/jpeg/Norm_RNH_T1.jpeg>]
+<RStudio/jpeg/Norm_SGH_T1.jpeg, id=50, 652.68843pt x 420.06938pt>
 File: RStudio/jpeg/Norm_SGH_T1.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Norm_SGH_T1.jpeg>
-Package pdftex.def Info: RStudio/jpeg/Norm_SGH_T1.jpeg  used on input line 119.
+Package pdftex.def Info: RStudio/jpeg/Norm_SGH_T1.jpeg  used on input line 121.
 
-(pdftex.def)             Requested size: 469.75502pt x 302.34717pt.
- [15 <./RStudio/jpeg/Norm_RNH_T2.jpeg>]
-<RStudio/jpeg/Norm_SGH_T2.jpeg, id=70, 652.68843pt x 420.06938pt>
+(pdftex.def)             Requested size: 284.52756pt x 183.12611pt.
+<RStudio/jpeg/Norm_SGH_T2.jpeg, id=51, 652.68843pt x 420.06938pt>
 File: RStudio/jpeg/Norm_SGH_T2.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Norm_SGH_T2.jpeg>
-Package pdftex.def Info: RStudio/jpeg/Norm_SGH_T2.jpeg  used on input line 124.
+Package pdftex.def Info: RStudio/jpeg/Norm_SGH_T2.jpeg  used on input line 126.
 
-(pdftex.def)             Requested size: 469.75502pt x 302.34717pt.
- [16 <./RStudio/jpeg/Norm_SGH_T1.jpeg>]
-<RStudio/jpeg/Norm_T1.jpeg, id=74, 652.68843pt x 420.06938pt>
+(pdftex.def)             Requested size: 284.52756pt x 183.12611pt.
+ [10 <./RStudio/jpeg/Norm_RNH_T2.jpeg> <./RStudio/jpeg/Norm_SGH_T1.jpeg>]
+<RStudio/jpeg/Norm_T1.jpeg, id=55, 652.68843pt x 420.06938pt>
 File: RStudio/jpeg/Norm_T1.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Norm_T1.jpeg>
-Package pdftex.def Info: RStudio/jpeg/Norm_T1.jpeg  used on input line 129.
-(pdftex.def)             Requested size: 469.75502pt x 302.34717pt.
- [17 <./RStudio/jpeg/Norm_SGH_T2.jpeg>]
-<RStudio/jpeg/Norm_T2.jpeg, id=78, 652.68843pt x 420.06938pt>
+Package pdftex.def Info: RStudio/jpeg/Norm_T1.jpeg  used on input line 131.
+(pdftex.def)             Requested size: 284.52756pt x 183.12611pt.
+<RStudio/jpeg/Norm_T2.jpeg, id=56, 652.68843pt x 420.06938pt>
 File: RStudio/jpeg/Norm_T2.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Norm_T2.jpeg>
-Package pdftex.def Info: RStudio/jpeg/Norm_T2.jpeg  used on input line 134.
-(pdftex.def)             Requested size: 469.75502pt x 302.34717pt.
- [18 <./RStudio/jpeg/Norm_T1.jpeg>]
-LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 142
+Package pdftex.def Info: RStudio/jpeg/Norm_T2.jpeg  used on input line 136.
+(pdftex.def)             Requested size: 284.52756pt x 183.12611pt.
+ [11 <./RStudio/jpeg/Norm_SGH_T2.jpeg> <./RStudio/jpeg/Norm_T1.jpeg>]
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 143
 .
 
 ("C:\Users\alexw\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmtt.fd"
@@ -965,87 +960,84 @@ File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 File: RStudio/txt/Linear-Model-Summaries.txt  (verbatim)
 
-[19 <./RStudio/jpeg/Norm_T2.jpeg>] [20]
-<RStudio/jpeg/Reg_DOM.jpeg, id=90, 652.68843pt x 420.06938pt>
+[12 <./RStudio/jpeg/Norm_T2.jpeg>] [13]
+<RStudio/jpeg/Reg_DOM.jpeg, id=68, 652.68843pt x 420.06938pt>
 File: RStudio/jpeg/Reg_DOM.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Reg_DOM.jpeg>
 Package pdftex.def Info: RStudio/jpeg/Reg_DOM.jpeg  used on input line 154.
-(pdftex.def)             Requested size: 469.75502pt x 302.34717pt.
- [21]
-<RStudio/jpeg/Reg_HOS.jpeg, id=94, 652.68843pt x 420.06938pt>
+(pdftex.def)             Requested size: 284.52756pt x 183.12611pt.
+<RStudio/jpeg/Reg_HOS.jpeg, id=69, 652.68843pt x 420.06938pt>
 File: RStudio/jpeg/Reg_HOS.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Reg_HOS.jpeg>
 Package pdftex.def Info: RStudio/jpeg/Reg_HOS.jpeg  used on input line 159.
-(pdftex.def)             Requested size: 469.75502pt x 302.34717pt.
- [22 <./RStudio/jpeg/Reg_DOM.jpeg>]
-<RStudio/jpeg/Reg_RNH.jpeg, id=98, 652.68843pt x 420.06938pt>
+(pdftex.def)             Requested size: 284.52756pt x 183.12611pt.
+ [14 <./RStudio/jpeg/Reg_DOM.jpeg>]
+<RStudio/jpeg/Reg_RNH.jpeg, id=73, 652.68843pt x 420.06938pt>
 File: RStudio/jpeg/Reg_RNH.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Reg_RNH.jpeg>
 Package pdftex.def Info: RStudio/jpeg/Reg_RNH.jpeg  used on input line 164.
-(pdftex.def)             Requested size: 469.75502pt x 302.34717pt.
-[23 <./RStudio/jpeg/Reg_HOS.jpeg>]
-<RStudio/jpeg/Reg_SGH.jpeg, id=102, 652.68843pt x 420.06938pt>
+(pdftex.def)             Requested size: 284.52756pt x 183.12611pt.
+<RStudio/jpeg/Reg_SGH.jpeg, id=74, 652.68843pt x 420.06938pt>
 File: RStudio/jpeg/Reg_SGH.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Reg_SGH.jpeg>
 Package pdftex.def Info: RStudio/jpeg/Reg_SGH.jpeg  used on input line 169.
-(pdftex.def)             Requested size: 469.75502pt x 302.34717pt.
- [24 <./RStudio/jpeg/Reg_RNH.jpeg>]
-<RStudio/jpeg/Reg_COST.jpeg, id=106, 652.68843pt x 420.06938pt>
+(pdftex.def)             Requested size: 284.52756pt x 183.12611pt.
+
+[15 <./RStudio/jpeg/Reg_HOS.jpeg> <./RStudio/jpeg/Reg_RNH.jpeg>]
+<RStudio/jpeg/Reg_COST.jpeg, id=78, 652.68843pt x 420.06938pt>
 File: RStudio/jpeg/Reg_COST.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Reg_COST.jpeg>
 Package pdftex.def Info: RStudio/jpeg/Reg_COST.jpeg  used on input line 174.
-(pdftex.def)             Requested size: 469.75502pt x 302.34717pt.
- [25 <./RStudio/jpeg/Reg_SGH.jpeg>]
-<RStudio/jpeg/Res_DOM.jpeg, id=111, 652.68843pt x 419.31656pt>
+(pdftex.def)             Requested size: 284.52756pt x 183.12611pt.
+<RStudio/jpeg/Res_DOM.jpeg, id=79, 652.68843pt x 419.31656pt>
 File: RStudio/jpeg/Res_DOM.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Res_DOM.jpeg>
-Package pdftex.def Info: RStudio/jpeg/Res_DOM.jpeg  used on input line 195.
-(pdftex.def)             Requested size: 469.75502pt x 301.80531pt.
- [26 <./RStudio/jpeg/Reg_COST.jpeg>]
-<RStudio/jpeg/Res_HOS.jpeg, id=115, 652.68843pt x 419.31656pt>
+Package pdftex.def Info: RStudio/jpeg/Res_DOM.jpeg  used on input line 194.
+(pdftex.def)             Requested size: 284.52756pt x 182.79791pt.
+ [16 <./RStudio/jpeg/Reg_SGH.jpeg> <./RStudio/jpeg/Reg_COST.jpeg>]
+<RStudio/jpeg/Res_HOS.jpeg, id=83, 652.68843pt x 419.31656pt>
 File: RStudio/jpeg/Res_HOS.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Res_HOS.jpeg>
-Package pdftex.def Info: RStudio/jpeg/Res_HOS.jpeg  used on input line 200.
-(pdftex.def)             Requested size: 469.75502pt x 301.80531pt.
- [27 <./RStudio/jpeg/Res_DOM.jpeg>]
-<RStudio/jpeg/Res_RNH.jpeg, id=119, 652.68843pt x 419.31656pt>
+Package pdftex.def Info: RStudio/jpeg/Res_HOS.jpeg  used on input line 199.
+(pdftex.def)             Requested size: 284.52756pt x 182.79791pt.
+<RStudio/jpeg/Res_RNH.jpeg, id=84, 652.68843pt x 419.31656pt>
 File: RStudio/jpeg/Res_RNH.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Res_RNH.jpeg>
-Package pdftex.def Info: RStudio/jpeg/Res_RNH.jpeg  used on input line 205.
-(pdftex.def)             Requested size: 469.75502pt x 301.80531pt.
-<RStudio/jpeg/Res_SGH.jpeg, id=120, 652.68843pt x 419.31656pt>
+Package pdftex.def Info: RStudio/jpeg/Res_RNH.jpeg  used on input line 204.
+(pdftex.def)             Requested size: 284.52756pt x 182.79791pt.
+ [17 <./RStudio/jpeg/Res_DOM.jpeg> <./RStudio/jpeg/Res_HOS.jpeg>]
+<RStudio/jpeg/Res_SGH.jpeg, id=88, 652.68843pt x 419.31656pt>
 File: RStudio/jpeg/Res_SGH.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Res_SGH.jpeg>
-Package pdftex.def Info: RStudio/jpeg/Res_SGH.jpeg  used on input line 210.
-(pdftex.def)             Requested size: 469.75502pt x 301.80531pt.
- [28 <./RStudio/jpeg/Res_HOS.jpeg> <./RStudio/jpeg/Res_RNH.jpeg>]
-<RStudio/jpeg/Res_COST.jpeg, id=124, 652.68843pt x 419.31656pt>
+Package pdftex.def Info: RStudio/jpeg/Res_SGH.jpeg  used on input line 209.
+(pdftex.def)             Requested size: 284.52756pt x 182.79791pt.
+<RStudio/jpeg/Res_COST.jpeg, id=89, 652.68843pt x 419.31656pt>
 File: RStudio/jpeg/Res_COST.jpeg Graphic file (type jpg)
 <use RStudio/jpeg/Res_COST.jpeg>
-Package pdftex.def Info: RStudio/jpeg/Res_COST.jpeg  used on input line 215.
-(pdftex.def)             Requested size: 469.75502pt x 301.80531pt.
- [29 <./RStudio/jpeg/Res_SGH.jpeg>] [30 <./RStudio/jpeg/Res_COST.jpeg>]
-("group project.aux") ) 
+Package pdftex.def Info: RStudio/jpeg/Res_COST.jpeg  used on input line 214.
+(pdftex.def)             Requested size: 284.52756pt x 182.79791pt.
+ [18 <./RStudio/jpeg/Res_RNH.jpeg> <./RStudio/jpeg/Res_SGH.jpeg>] [19 <./RStudi
+o/jpeg/Res_COST.jpeg>] ("group project.aux") ) 
 Here is how much of TeX's memory you used:
- 18184 strings out of 492969
- 338418 string characters out of 3126585
+ 18189 strings out of 492969
+ 338480 string characters out of 3126585
  566550 words of memory out of 3000000
- 21693 multiletter control sequences out of 15000+200000
+ 21698 multiletter control sequences out of 15000+200000
  10427 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,6n,96p,646b,1765s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\alexw\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
-r\jknappen\ec\dpi600\tctt0900.pk><C:/Users/alexw/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/alexw/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/alexw/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users
-/alexw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.p
-fb><C:/Users/alexw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmtt10.pfb><C:/Users/alexw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmtt9.pfb>
-Output written on "group project.pdf" (30 pages, 2025556 bytes).
+ 61i,7n,96p,632b,1765s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\alexw\AppData\Local\Mi
+KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tctt0900.pk><C:/Users/alexw/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/
+alexw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pf
+b><C:/Users/alexw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr12.pfb><C:/Users/alexw/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr17.pfb><C:/Users/alexw/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/alexw/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on "group project.pdf" (19 pages, 2026124 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
+ 121 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
