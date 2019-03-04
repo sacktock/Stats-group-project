@@ -1,9 +1,4 @@
-> summary(domdis$COSTS.T1)
-   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-  335.2   529.9   583.1   605.6   635.9  1207.0 
-> summary(domdis$COSTS.T2)
-   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-  212.2   322.2   394.8   390.4   439.1   725.3 
+
 > summary(domdis$COSTS.T1)
    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
   335.2   529.9   583.1   605.6   635.9  1207.0 
