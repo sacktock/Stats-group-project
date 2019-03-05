@@ -1,0 +1,26 @@
+> summary(lmdis2)
+
+Call:
+lm(formula = learndis$COSTS.T2 ~ learndis$COSTS.T1 + learndis$ACCOM)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-528.84 -150.95    2.83  126.74  546.52 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       337.77748   77.92170   4.335 3.60e-05 ***
+learndis$COSTS.T1   0.08686    0.08788   0.988  0.32547    
+learndis$ACCOMHOS 211.77891   75.25584   2.814  0.00593 ** 
+learndis$ACCOMRNH 187.60669   73.61525   2.548  0.01241 *  
+learndis$ACCOMSGH 413.42936   69.98914   5.907 5.28e-08 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 220.4 on 96 degrees of freedom
+Multiple R-squared:  0.3418,	Adjusted R-squared:  0.3144 
+F-statistic: 12.46 on 4 and 96 DF,  p-value: 3.322e-08
+
+> coefficients(lmdis2)
+      (Intercept) learndis$COSTS.T1 learndis$ACCOMHOS learndis$ACCOMRNH learndis$ACCOMSGH 
+     337.77747920        0.08685749      211.77891481      187.60668932      413.42936376 

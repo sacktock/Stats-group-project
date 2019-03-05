@@ -124,7 +124,7 @@ boxplot(rnhdis$COSTS.T1,rnhdis$COSTS.T2, names = c('RNH COST.T1','RNH COST.T2'),
 boxplot(sghdis$COSTS.T1,sghdis$COSTS.T2, names = c('SGH COST.T1','SGH COST.T2'), main = 'SGH COST', horizontal = TRUE)
 boxplot(learndis$COSTS.T1, learndis$COSTS.T2, names = c('Patient COST.T1','Patient COST.T2'), main = 'Patient COST', horizontal = TRUE)
 
-accom <-factor(learndis$ACCOM,c(1,2,3,4), labels=c("DOM","HOS","RNH","SGH"))
+
 
 
 lmdom <- lm(domdis$COSTS.T2~domdis$COSTS.T1)
@@ -133,7 +133,7 @@ lmrnh <- lm(rnhdis$COSTS.T2~rnhdis$COSTS.T1)
 lmsgh <- lm(sghdis$COSTS.T2~sghdis$COSTS.T1)
 lmdis <- lm(learndis$COSTS.T2~learndis$COSTS.T1)
 #unclear if the multiple regression is valid
-lmdis2 <- lm(learndis$COSTS.T2~learndis$COSTS.T1+learndis$ACCOM)
+
 
 summary(lmdom)
 summary(lmhos)
@@ -141,7 +141,7 @@ summary(lmrnh)
 summary(lmsgh)
 summary(lmdis)
 #unclear if the multiple regression is valid
-summary(lmdis2)
+
 
 plot(domdis$COSTS.T2~domdis$COSTS.T1)
 abline(lmdom)
@@ -154,8 +154,7 @@ abline(lmsgh)
 plot(learndis$COSTS.T2~learndis$COSTS.T1)
 abline(lmdis)
 #unclear if the multiple regression is valid
-plot(learndis$COSTS.T2~learndis$COSTS.T1+learndis$ACCOM)
-abline(lmdis2)
+
 
 
 residdom <- resid(lmdom)
@@ -163,8 +162,7 @@ residhos <- resid(lmhos)
 residrnh <- resid(lmrnh)
 residsgh <- resid(lmsgh)
 residdis <- resid(lmdis)
-#unclear if the multiple regression is valid
-residdis2 <- resid(lmdis2)
+
 
 par(mfrow = c(1,2))
 plot(domdis$COSTS.T1,residdom, ylab = 'Residuals')
@@ -192,12 +190,17 @@ qqline(y=0)
 qqnorm(residdis, xlab = 'z', ylab = 'Residuals')
 qqline(residdis, col='steelblue', lwd=2)
 
-#unclear if the multiple regression is valid
+#multiple regression
+lmdis2 <- lm(learndis$COSTS.T2~learndis$COSTS.T1+learndis$ACCOM)
+summary(lmdis2)
+coefficients(lmdis2)
+residdis2 <- resid(lmdis2)
 plot(learndis$COSTS.T1,residdis2, ylab = 'Residuals')
 qqline(y=0)
 qqnorm(residdis2, xlab = 'z', ylab = 'Residuals')
 qqline(residdis2, col='steelblue', lwd=2)
 #get better as you go down, regression should work for whole data set
 #lmdis2 is the best for resgression
+
 
 

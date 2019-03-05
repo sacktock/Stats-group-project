@@ -51,6 +51,8 @@ sghdis <- subset(learndis, ACCOM=="SGH", select = c("PATIENT","COSTS.T1","COSTS.
 \subsection{Summaries}
 Below is some R output, displaying the numerical summaries for each of the distributions. In the next section we will use boxplots to visually assess the distributions, with T1 and T2 costs side by side for each of the accomodation types.
 \verbatiminput{RStudio/txt/Summaries.txt}
+We can see that in general T2 costs are smaller than T1 costs, this statement holds for all accomodation types. We can also see the $n$ values for each accomodation type, with domestic accomodation having the smallest $n = 15$, and professionally staffed homes having the largest $n=41$. We may wish to consider this later on.
+\newpage
 \subsection{Boxplots}
 Illustrated by the boxplot below there is an obvious difference between the T1 and T2 costs for domestic accomodation. Both appear to be left skewed, with T2 appearing more left skewed than T1. Both have an outlier but T2 has a very extreme outlier which will need to be considered and may cause problems later on.
 \begin{figure}[H]
@@ -62,6 +64,7 @@ The box plot below shows us that T1 and T2 costs for hostel accomodation are bot
 \centering
 \includegraphics[width=10cm]{RStudio/jpeg/Box_HOS.jpeg}
 \end{figure}
+\newpage
 The box plot below shows there is some difference between T1 and T2 costs for residential and nursing homes. T1 costs are alot more widely spread than T2 costs, but T2 costs look very normal at a first glance.
 \begin{figure}[H]
 \centering
@@ -72,6 +75,7 @@ T1 and T2 costs do not seem to differ much for professionally staffed homes. T2 
 \centering
 \includegraphics[width=10cm]{RStudio/jpeg/Box_SGH.jpeg}
 \end{figure}
+\newpage
 The box plot below shows the distribution for all T1 and T2 costs (regardless of the accomodation type). We can see that in general T1 costs ares higher than T2 costs, and at a first glance both distributions look reasonably normal.
 \begin{figure}[H]
 \centering
@@ -83,7 +87,7 @@ The box plot below shows the distribution for all T1 and T2 costs (regardless of
 The following R output could be used to asses the normality of the different distributions by looking at the shape of the stem and leaf plots. However, we will fully asses the normaility of each distribution in the next section.
 
 \verbatiminput{RStudio/txt/Stem-Leaf.txt}
-
+\newpage
 \subsection{Normal Fit}
 The T1 costs for domestic accomodation appear to loosely follow a normal distribution. We have a small n, and excluding the outlier we can see that the bulk of the data follows a linear trend on the normal quantile plot. The histogram also shows some signs of normality, so we could begin to make probabalistic calculations using the normal distribution.
 \begin{figure}[H]
@@ -95,6 +99,7 @@ The T2 costs for domestic accomodation give us a similar situation. We have a sm
 \centering
 \includegraphics[width=10cm]{RStudio/jpeg/Norm_DOM_T2.jpeg}
 \end{figure}
+\newpage
 The T1 costs for hostel accomodation do not appear to follow a normal distribution. The histogram appears bi-modal, and there are systematic devations from the straight line on the normal quantile plot. Perhaps there is some other variable that has not been considered or the sampling was bias.
 \begin{figure}[H]
 \centering
@@ -105,6 +110,7 @@ For the T2 costs for hostel accomodation we see something different. The histogr
 \centering
 \includegraphics[width=10cm]{RStudio/jpeg/Norm_HOS_T2.jpeg}
 \end{figure}
+\newpage
 The T1 costs for residential and nursing homes appear to follow a normal distribution. The histogram is slightly right skewed but appears fairly normal, and the points in the normal quantile plot roughly follow a linear relationship without too much clustering or deviation from the straught line.
 \begin{figure}[H]
 \centering
@@ -115,6 +121,7 @@ For the T2 costs for residential and nursing homes we get a strange histogram. W
 \centering
 \includegraphics[width=10cm]{RStudio/jpeg/Norm_RNH_T2.jpeg}
 \end{figure}
+\newpage
 The T1 costs for professionally staffed homes appear to follow a normal distribution quite closely. The histogram looks very normal (only slightly right skewed), and the points on the normal quantile plot closely follow a linear relationship apart from the few outliers. This could because we have a relatively large n for professionally staffed homes.
 \begin{figure}[H]
 \centering
@@ -125,6 +132,7 @@ We get a similar situation for the T2 costs for professionally staffed homes. Th
 \centering
 \includegraphics[width=10cm]{RStudio/jpeg/Norm_SGH_T2.jpeg}
 \end{figure}
+\newpage
 The plots below are for the T1 costs of all patients regardless of the accomodation type. We can see some signs of normality; on the normal quantile plot a large bulk of the data follows some linear trend, but we have some systematic deviations at the tails. Overall the histogram shows some normality but the distribution appears to be right skewed. We would need to be careful if we use a normal distribution to model this data, perhaps some transformation could help us.
 \begin{figure}[H]
 \centering
@@ -135,7 +143,7 @@ Below are the plots for the T2 costs of all the patients and accomodation types.
 \centering
 \includegraphics[width=10cm]{RStudio/jpeg/Norm_T2.jpeg}
 \end{figure}
-
+\newpage
 \section{Associations}
 \subsection{Linear Models}
 Below is the R script that creates linear models for predicting costs at T2 from costs at T1 for every accomodation type and for the overall data set.
@@ -158,7 +166,8 @@ The below graph plots T2 costs against T1 costs for hostel accomodation with a r
 \centering
 \includegraphics[width=10cm]{RStudio/jpeg/Reg_HOS.jpeg}
 \end{figure}
-The next graph plots T2 costs against T1 costs for residential and nursing homes. Theres appears to be some positive correlation, but again it is weak. Infact it is the strongest linear model with an R value of 0.1275.
+\newpage
+The next graph plots T2 costs against T1 costs for residential and nursing homes. There appears to be some positive correlation, but again it is weak. Infact it is the strongest linear model with an R value of 0.1275.
 \begin{figure}[H]
 \centering
 \includegraphics[width=10cm]{RStudio/jpeg/Reg_RNH.jpeg}
@@ -168,13 +177,14 @@ The next graph plots T2 costs against T1 costs for professionally staffed homes.
 \centering
 \includegraphics[width=10cm]{RStudio/jpeg/Reg_SGH.jpeg}
 \end{figure}
+\newpage
 The final graph shows all the T2 costs against all the T1 costs for all the accomodation types. There appears to be a positive correlation but it is weak with an R value of 0.06935, so there is a weak association between the variables.
 \begin{figure}[H]
 \centering
 \includegraphics[width=10cm]{RStudio/jpeg/Reg_COST.jpeg}
 \end{figure}
 
-
+\newpage
 \section{Stability of Associations}
 \subsection{Residuals}
 The below R script stored the residuals of the linear models in some variables.
@@ -208,6 +218,7 @@ The residuals below for professionally staffed homes are normal.
 \centering
 \includegraphics[width=10cm]{RStudio/jpeg/Res_SGH.jpeg}
 \end{figure}
+\newpage
 The residuals below are for all T2 costs for all accomodation types. For the majority of the data they are normal, but the tails deviate slightly. We must be careful but we could say any probabalistic statements are valid.
 \begin{figure}[H]
 \centering
@@ -215,8 +226,25 @@ The residuals below are for all T2 costs for all accomodation types. For the maj
 \end{figure}
 
 \section{Multiple Regression}
-
-\section{Conclusions}
+Finally, we decided to use multiple regression to see whether T2 costs can be predicted from T1 costs, using using accomodation type as a second variable. The R script below does this for us, storing the linear model in a variable for later use.
+\begin{lstlisting}
+lmdis2 <- lm(learndis$COSTS.T2~learndis$COSTS.T1+learndis$ACCOM)
+\end{lstlisting}
+Below is some R output that summarises the linear model, we can use this to asses how well the data fits to the model.
+\verbatiminput{RStudio/txt/Mult-Summary.txt}
+We get a formula of the form,
+$$COSTS.T2 =  337.8 + 0.08686 \cdot COSTS.T1 + 211.8 \cdot ACCOM.HOS + 187.6 \cdot ACCOM.RNH + 413.4 \cdot ACCOM.SGH$$
+where $ACCOM.HOS$, $ACCOM.RNH$ and $ACCOM.SGH$ are mutually exclusive binary variables.
+\\
+\\
+We also get an R value of 0.3418, which suggests we have a weak positive correlation. Although notably this linear model is the strongest one yet.
+\\
+\\
+If we begin to asses the normality of the residuals, we see below that they appear very normal. All the points closely follow a linear relationship on the normal quantile plot and the residual plot is resonably sparse. This means we can make accurate probabalistic statements about our predictions from the linear model.
+\begin{figure}[H]
+\centering
+\includegraphics[width=15cm]{RStudio/jpeg/Mult_Norm.png}
+\end{figure}
 
 \end{document}
 
