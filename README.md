@@ -1,2 +1,2 @@
-stats gorup project
+stats group project
 
